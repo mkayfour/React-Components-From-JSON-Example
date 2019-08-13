@@ -1,0 +1,185 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mainRet{
+
+  width: 99%;
+  height: 100vh;
+  /* border: 2px solid red; */
+
+}
+
+.mainWindow{
+  width: 99%;
+  height: 100vh;
+  /* border: 2px solid black; */
+
+}
+
+#section1{
+  background-image: url('logos/bengal-tiger.jpg');
+  background-repeat: no-repeat;
+  
+}
+
+#section2{
+  background-image: url('logos/lion-king.jpg');
+  background-repeat: no-repeat;
+
+
+}
+#section3{
+  background-image: url('logos/Cheetah.jpg');
+  
+  background-repeat: no-repeat;
+
+}
+#section4{
+  background-image: url('logos/deer.jpg');
+  background-repeat: no-repeat;
+
+}
+#section5{
+  background-image: url('logos/python.jpg');
+  background-repeat: no-repeat;
+
+}
+
+
+
+.section{
+  /* background: white; */
+  width: 38%;
+  height: 80%;
+  border: 1px dotted black;
+  margin: 10px;
+  display: block;
+  padding: 50px;
+  align-items: center;
+  display: inline-block;
+}
+
+.section > h1,h3 {
+  color: whitesmoke;
+  /* background-color:   #80ced6; */
+  background-color: rgba(76, 175, 80, 0.6) /* Green background with 30% opacity */
+  ;
+
+
+}
+
+.tagline{
+  /* height: 50px; */
+  font-size: 1em;
+  font-weight: 100;
+  display: inline;
+  margin: 5px;
+}
+
+
+
+.main-content{
+  margin-top: 70px;
+}
+
+.main-content > .content-items{
+  margin: 20px;
+}
+
+.scrollTo{
+  width: 50px;
+  height: 50px;
+  border: 2px dotted black;
+
+}
+
+
+.upBtn {
+  display:block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 56%; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  background: transparent;
+
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 70px;
+  height:70px;
+}
+
+.downBtn {
+  display: inline-block; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 49%; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background: transparent;
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  width: 70px;
+  height:70px;
+}
+
+
+section {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color:white;
+  background-color: black;
+  visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+section.active {
+  visibility: visible;
+}
+
+.reactGen{
+  padding-top: 70px;
+  color: salmon;
+}
